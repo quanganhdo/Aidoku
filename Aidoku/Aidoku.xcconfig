@@ -6,10 +6,11 @@
 //
 
 // base identifiers
-APP_ID_PREFIX               = app.aidoku
-APP_ID_SUFFIX               = Aidoku
+APP_ID_PREFIX               = anh.do
+APP_ID_SUFFIX               = manga
 
 PRODUCT_BUNDLE_IDENTIFIER   = $(APP_ID_PREFIX).$(APP_ID_SUFFIX)
+DEVELOPMENT_TEAM             = C7HHQ9A86J
 
 // ----- iCloud / CloudKit -----
 ICLOUD_CONTAINER_ID         = iCloud.$(PRODUCT_BUNDLE_IDENTIFIER)
